@@ -46,7 +46,7 @@ async function createWASession() {
 
             await session.sendMessage(session.user.id, { text: "*Greetings*" });
             await session.sendMessage(session.user.id, {
-              text: `*Dear*: ${session.user.name}\n*Your session ID*: ${sessionID}\n*PrivateBin*: ${Bin_HATED}\n\nFooter: 2024 Astrid`,
+              text: `*Dear*: ${session.user.name}\n*Your session ID*: ${sessionID}\n*PrivateBin*: ${Bin_HATED}\n\nFooter: 2024-2034 FAMOUS-TECH `,
             });
           } catch (error) {
             logger.error(error);
